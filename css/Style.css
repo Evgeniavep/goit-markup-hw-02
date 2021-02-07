@@ -1,0 +1,173 @@
+/* основные стили для всего документа */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+/* логотип */
+
+.logo {
+  font-family: 'raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.logo-web {
+  color: var(--blue-text);
+}
+
+.logo-studio {
+  color: var(--main-text);
+}
+
+/* навигация шапка */
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--blue-text);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--main-text);
+}
+
+.nav-link.current {
+  color: var(--blue-text);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--blue-text);
+}
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--grey-text);
+}
+
+/* герой */
+
+.hero-container {
+  background-color: var(--dark-back);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white-text);
+}
+
+.hero-button: {
+  border: none;
+}
+
+.hero-button {
+  background: var(--blue-text);
+  width: 200px;
+  height: 50px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--white-text);
+}
+
+/* преимущества */
+
+/* .visually-hidden {
+  visibility: hidden;
+} */
+
+.visually-hidden {
+  display: none;
+}
+
+.advantages {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--grey-text);
+}
+
+/* команда */
+
+.profession {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+  color: var(--grey-text);
+}
+
+/* футер */
+
+.footer {
+  background-color: var(--dark-back);
+}
+
+.logo-studio-footer {
+  color: var(--white-text);
+}
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-location {
+  color: var(--white-text);
+}
+
+.footer-contacts {
+  color: var(--white-op60);
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--grey-text);
+}
+
+/* портфолио фильтры */
+
+.filter-button {
+  border: none;
+}
+
+.filter-button {
+  background: var(--grey-button);
+  width: 128px;
+  height: 38px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--main-text);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--blue-text);
+  color: var(--white-text);
+}
